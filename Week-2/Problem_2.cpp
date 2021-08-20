@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int sequence(int arr[], int n){
+void sequence(int arr[], int n){
     int i,j,k,f=0;
     for(i=0;i<n-2;i++){
         for(j=i+1;j<n-1;j++){
@@ -17,7 +17,7 @@ int sequence(int arr[], int n){
         cout<<"No sequence found."<<endl;
 }
 int main(){
-    int t,n,num;
+    int t,n;
     cin>>t;
     while(t--){
         cin>>n;
